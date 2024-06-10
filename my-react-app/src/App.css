@@ -1,0 +1,107 @@
+.App {
+  width: 100vw;
+  height: 100vw;
+  background-image: linear-gradient(90deg, #f3f1e1, #4CAF50);
+}
+
+h1 {
+  text-align: center;
+}
+
+.opcoes{
+  display:flex;
+  justify-content: center;
+}
+
+.opcao {
+  display: flex;
+  min-width:120px;
+  font-size: 25px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 50px;
+  cursor:pointer;
+}
+
+
+
+
+li{
+  list-style: none;
+}
+
+.logo {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  position: relative; 
+  top: 10%; 
+  left: 3%;
+
+}
+
+.titulo {
+  font-size: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  flex-grow: 1; /* Allow title to expand to fill available space */
+  margin-left: 200%;
+  transform: translateX(-50%);
+
+}
+
+.box {
+  background-color: aliceblue;
+  display: flex; 
+  flex-direction: column; 
+  margin: auto; 
+  min-height: 70vh;
+  border-radius: 10px;
+  border: 2px solid #020202;
+  width: 50%;
+  height: auto; 
+}
+.campo {
+  margin-bottom: 10px;
+  padding: 10px;  /* Add padding for spacing within the element */
+  box-sizing: border-box;
+  width: 100%;          
+}
+
+label {
+  display: flex;
+  margin-bottom: 5px;
+  width: auto;
+  height: auto;
+}
+
+input, select {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  font-size: 16px; 
+  padding: 10px 20px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  background-color: #4CAF50; 
+  color: white; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+  transform: scale(1.2); 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  margin: 0 auto;
+  position: relative; 
+  top: 12%; 
+  transform: translateY(-50%);
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
